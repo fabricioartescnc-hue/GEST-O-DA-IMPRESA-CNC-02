@@ -1,0 +1,6 @@
+COMO INSTALAR NO CELULAR
+1. Coloque esta pasta em uma hospedagem com https (Netlify Drop, GitHub Pages ou Cloudflare Pages) e abra o link no celular.
+   - Android (Chrome): menu > "Instalar app" / "Adicionar à tela inicial".
+   - iPhone (Safari): Compartilhar > "Adicionar à Tela de Início".
+2. Abra o app uma vez COM internet. Depois disso ele funciona sem internet (inclusive os PDFs).
+Os dados ficam salvos no próprio celular.
