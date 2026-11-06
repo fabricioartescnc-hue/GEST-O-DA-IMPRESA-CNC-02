@@ -1,6 +1,8 @@
 {
+ "id": "./index.html",
  "name": "Gestão da oficina",
  "short_name": "Oficina",
+ "description": "Orçamentos, pedidos, caixa, contas e funcionários da oficina, com sincronização online.",
  "start_url": "./index.html",
  "scope": "./",
  "display": "standalone",
@@ -8,18 +10,44 @@
  "background_color": "#16262b",
  "theme_color": "#16262b",
  "lang": "pt-BR",
+ "categories": [
+  "business",
+  "productivity"
+ ],
  "icons": [
   {
-   "src": "icons/icon-192.png",
+   "src": "icon-192.png",
    "sizes": "192x192",
    "type": "image/png",
    "purpose": "any"
   },
   {
-   "src": "icons/icon-512.png",
+   "src": "icon-512.png",
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "tela-celular.png",
+   "sizes": "540x960",
+   "type": "image/png",
+   "form_factor": "narrow",
+   "label": "Orçamentos"
+  },
+  {
+   "src": "tela-computador.png",
+   "sizes": "1280x720",
+   "type": "image/png",
+   "form_factor": "wide",
+   "label": "Orçamentos"
   }
  ]
 }
